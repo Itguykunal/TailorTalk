@@ -2,7 +2,7 @@ import streamlit as st
 from agent import generate_reply_from_agent  # ✅ You’re using local agent.py
 
 st.set_page_config(page_title="TailorTalk", page_icon="🤖")
-st.title("TailorTalk 🤖📅")
+st.title("TailorTalk 📅")
 st.write("Talk to me to book a meeting on your calendar!")
 
 # ✅ Initialize state
