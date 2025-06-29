@@ -1,8 +1,3 @@
-Got it! Here's the **updated README** with the new name **CalendarGPT** — fully fixed, clean, and ready for GitHub:
-
----
-
-```markdown
 # 🧠 CalendarGPT — AI Meeting Scheduler (LangGraph + FastAPI + Streamlit Ready)
 
 CalendarGPT is a conversational AI assistant that helps users **book, cancel, list, or reschedule meetings** using natural language. It uses a local `calendar_data.json` file instead of a real calendar — making it **lightweight, fast, and demo-friendly**.
@@ -166,10 +161,3 @@ If this is for an assignment or project:
 
 Got feedback or want to contribute?
 Open an issue or pull request. Happy scheduling! 🙌
-
-```
-
----
-
-Let me know if you want a logo, badge, or deploy button added!
-```
