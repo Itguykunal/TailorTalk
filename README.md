@@ -3,8 +3,6 @@
 
 [![Streamlit App](https://img.shields.io/badge/Try%20App-Streamlit-green?logo=streamlit)](https://tailortalk-ady49vihq3mrhlw9xajk4v.streamlit.app/)
 
-**[👉 Click here to try the app](https://tailortalk-ady49vihq3mrhlw9xajk4v.streamlit.app/)**
-
 
 CalendarGPT is a conversational AI assistant that helps users **book, cancel, list, or reschedule meetings** using natural language. It uses a local `calendar_data.json` file instead of a real calendar — making it **lightweight, fast, and demo-friendly**.
 
