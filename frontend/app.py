@@ -18,6 +18,22 @@ if "agent_state" not in st.session_state:
         "reply": "",
         "bookings": []
     }
+# ✅ Show welcome message once per session
+
+if "welcome_shown" not in st.session_state:
+    welcome_message = """👋 Welcome to TailorTalk! I'm your meeting assistant.
+
+You can say things like:
+- "Book a meeting on 26 Dec at 2pm"
+- "Cancel or delete the meeting on Dec 26"
+- "List all my meetings"
+- "Reschedule my meet on Dec 26 to Dec 27 at 6pm"
+- "Am I free on Dec 26?"
+- "Suggest me any free time"
+
+Let me know how I can help you today!"""
+    st.session_state.chat_history.append(("assistant", welcome_message))
+    st.session_state.welcome_shown = True
 
 # ✅ Chat input box
 user_input = st.chat_input("Ask me to book something...")
